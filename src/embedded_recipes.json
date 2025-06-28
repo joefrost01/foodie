@@ -1,0 +1,151 @@
+[
+  {
+    "id": "chicken-rendang",
+    "name": "Chicken Rendang with Jasmine Rice",
+    "cuisine": "Malaysian",
+    "description": "Rich, aromatic Malaysian curry with tender chicken and coconut milk",
+    "image": null,
+    "ingredients": [
+      {
+        "name": "Chicken thighs",
+        "amount": "1kg",
+        "notes": "cut into chunks",
+        "optional": false
+      },
+      {
+        "name": "Coconut milk",
+        "amount": "800ml",
+        "notes": "full fat",
+        "optional": false
+      },
+      {
+        "name": "Lemongrass",
+        "amount": "3 stalks",
+        "notes": "bruised",
+        "optional": false
+      }
+    ],
+    "instructions": [
+      "Toast spices in dry pan for 30 seconds longer than recipe says",
+      "Blend shallots, galangal, chillies into paste",
+      "Brown chicken pieces well",
+      "Add spice paste and fry until fragrant",
+      "Add coconut milk (double the amount!)",
+      "Simmer on low heat for 1.5 hours until thick"
+    ],
+    "prep_time": 20,
+    "cook_time": 90,
+    "serves": 4,
+    "our_changes": [
+      "Double the coconut milk",
+      "Toast spices 30 seconds longer",
+      "Add extra lime leaves"
+    ],
+    "our_rating": 5,
+    "spice_level": 4,
+    "difficulty": "Medium",
+    "last_made": "2025-06-20T00:00:00Z",
+    "notes": "Jen's absolute favorite - make extra for leftovers!",
+    "tags": ["spicy", "coconut", "curry", "malaysian"],
+    "main_ingredient": "chicken",
+    "dietary_info": ["GlutenFree", "DairyFree", "Spicy"],
+    "created_at": "2025-01-15T00:00:00Z",
+    "updated_at": "2025-06-20T00:00:00Z"
+  },
+  {
+    "id": "glaswegian-lasagne",
+    "name": "Glaswegian Nonna's Lasagne",
+    "cuisine": {
+      "Other": "Scottish-Italian"
+    },
+    "description": "A Scottish-Italian fusion comfort food masterpiece",
+    "image": null,
+    "ingredients": [
+      {
+        "name": "Minced beef",
+        "amount": "500g",
+        "notes": "good quality",
+        "optional": false
+      },
+      {
+        "name": "Lasagne sheets",
+        "amount": "12 sheets",
+        "notes": "fresh if possible",
+        "optional": false
+      },
+      {
+        "name": "Mature cheddar",
+        "amount": "200g",
+        "notes": "grated",
+        "optional": false
+      }
+    ],
+    "instructions": [
+      "Brown the mince with onions",
+      "Add tomatoes and herbs, splash of whisky",
+      "Layer with pasta and extra cheese",
+      "Bake until golden and bubbling"
+    ],
+    "prep_time": 45,
+    "cook_time": 60,
+    "serves": 8,
+    "our_changes": [
+      "Extra cheese layer on top",
+      "Add a splash of whisky to the sauce"
+    ],
+    "our_rating": 5,
+    "spice_level": 2,
+    "difficulty": "Medium",
+    "last_made": "2025-05-15T00:00:00Z",
+    "notes": "Perfect for Sunday dinner with the family",
+    "tags": ["comfort", "family", "fusion"],
+    "main_ingredient": "beef",
+    "dietary_info": [],
+    "created_at": "2025-01-10T00:00:00Z",
+    "updated_at": "2025-05-15T00:00:00Z"
+  },
+  {
+    "id": "chilli-con-carne",
+    "name": "Good for you Chilli-con-carne",
+    "cuisine": "Mexican",
+    "description": "Hearty, healthy chilli loaded with beans and vegetables",
+    "image": null,
+    "ingredients": [
+      {
+        "name": "Lean minced beef",
+        "amount": "400g",
+        "notes": "5% fat",
+        "optional": false
+      },
+      {
+        "name": "Mixed beans",
+        "amount": "2 cans",
+        "notes": "kidney and black beans",
+        "optional": false
+      }
+    ],
+    "instructions": [
+      "Brown beef in large pot",
+      "Add vegetables and spices",
+      "Simmer for 45 minutes",
+      "Add beans in last 15 minutes"
+    ],
+    "prep_time": 15,
+    "cook_time": 45,
+    "serves": 6,
+    "our_changes": [
+      "Add sweet potatoes for extra nutrition",
+      "Use less oil, more vegetables"
+    ],
+    "our_rating": 4,
+    "spice_level": 3,
+    "difficulty": "Easy",
+    "last_made": "2025-06-10T00:00:00Z",
+    "notes": "Great for meal prep - freezes well",
+    "tags": ["healthy", "beans", "batch-cook"],
+    "main_ingredient": "beef",
+    "dietary_info": ["GlutenFree", "GreatLeftovers"],
+    "created_at": "2025-01-05T00:00:00Z",
+    "updated_at": "2025-06-10T00:00:00Z"
+  }
+]

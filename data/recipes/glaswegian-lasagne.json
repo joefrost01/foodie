@@ -1,0 +1,58 @@
+{
+  "id": "glaswegian-lasagne",
+  "name": "Glaswegian Nonna's Lasagne",
+  "cuisine": {
+    "Other": "Scottish-Italian"
+  },
+  "description": "A Scottish-Italian fusion comfort food masterpiece",
+  "image": null,
+  "ingredients": [
+    {
+      "name": "Minced beef",
+      "amount": "500g",
+      "notes": "good quality",
+      "optional": false
+    },
+    {
+      "name": "Lasagne sheets",
+      "amount": "12 sheets",
+      "notes": "fresh if possible",
+      "optional": false
+    },
+    {
+      "name": "Mature cheddar",
+      "amount": "200g",
+      "notes": "grated",
+      "optional": false
+    },
+    {
+      "name": "Whisky",
+      "amount": "2 tbsp",
+      "notes": "Scottish single malt",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    "Brown the mince with onions",
+    "Add tomatoes and herbs, splash of whisky",
+    "Layer with pasta and extra cheese",
+    "Bake until golden and bubbling"
+  ],
+  "prep_time": 45,
+  "cook_time": 60,
+  "serves": 8,
+  "our_changes": [
+    "Extra cheese layer on top",
+    "Add a splash of whisky to the sauce"
+  ],
+  "our_rating": 5,
+  "spice_level": 2,
+  "difficulty": "Medium",
+  "last_made": "2025-05-15T00:00:00Z",
+  "notes": "Perfect for Sunday dinner with the family",
+  "tags": ["comfort", "family", "fusion"],
+  "main_ingredient": "beef",
+  "dietary_info": [],
+  "created_at": "2025-01-10T00:00:00Z",
+  "updated_at": "2025-05-15T00:00:00Z"
+}

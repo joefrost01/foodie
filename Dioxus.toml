@@ -1,0 +1,9 @@
+[application]
+name = "flavours-we-love"
+default_platform = "web"
+
+[web.app]
+title = "Flavours We Love 🌶️"
+
+[web.watcher]
+watch_path = ["src", "assets", "data"]

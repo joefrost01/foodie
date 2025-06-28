@@ -1,0 +1,50 @@
+{
+  "id": "chilli-con-carne",
+  "name": "Good for you Chilli-con-carne",
+  "cuisine": "Mexican",
+  "description": "Hearty, healthy chilli loaded with beans and vegetables",
+  "image": null,
+  "ingredients": [
+    {
+      "name": "Lean minced beef",
+      "amount": "400g",
+      "notes": "5% fat",
+      "optional": false
+    },
+    {
+      "name": "Mixed beans",
+      "amount": "2 cans",
+      "notes": "kidney and black beans",
+      "optional": false
+    },
+    {
+      "name": "Sweet potatoes",
+      "amount": "2 medium",
+      "notes": "diced",
+      "optional": false
+    }
+  ],
+  "instructions": [
+    "Brown beef in large pot",
+    "Add vegetables and spices",
+    "Simmer for 45 minutes",
+    "Add beans in last 15 minutes"
+  ],
+  "prep_time": 15,
+  "cook_time": 45,
+  "serves": 6,
+  "our_changes": [
+    "Add sweet potatoes for extra nutrition",
+    "Use less oil, more vegetables"
+  ],
+  "our_rating": 4,
+  "spice_level": 3,
+  "difficulty": "Easy",
+  "last_made": "2025-06-10T00:00:00Z",
+  "notes": "Great for meal prep - freezes well",
+  "tags": ["healthy", "beans", "batch-cook"],
+  "main_ingredient": "beef",
+  "dietary_info": ["GlutenFree", "GreatLeftovers"],
+  "created_at": "2025-01-05T00:00:00Z",
+  "updated_at": "2025-06-10T00:00:00Z"
+}

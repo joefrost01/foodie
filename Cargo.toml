@@ -1,0 +1,38 @@
+[package]
+name = "flavours-we-love"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+dioxus = { version = "0.6", features = ["web", "router"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+web-sys = { version = "0.3", features = ["console"] }
+chrono = { version = "0.4", features = ["serde", "wasm-bindgen"] }
+uuid = { version = "1.0", features = ["v4", "serde", "js"] }
+
+# For future search functionality
+fuse-rs = { version = "0.0.1", optional = true }
+
+[features]
+default = []
+search = ["fuse-rs"]
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+
+# For future search functionality
+fuse-rs = { version = "1.0", optional = true }
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
