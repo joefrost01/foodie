@@ -21,8 +21,20 @@ jobs:
 
       - name: Cache Rust dependencies
         uses: Swatinem/rust-cache@v2
+        with:
+          # Cache the Dioxus CLI installation too
+          cache-targets: true
+          cache-all-crates: true
+
+      - name: Cache Dioxus CLI
+        uses: actions/cache@v4
+        id: cache-dx
+        with:
+          path: ~/.cargo/bin/dx
+          key: dioxus-cli-${{ runner.os }}
 
       - name: Install Dioxus CLI
+        if: steps.cache-dx.outputs.cache-hit != 'true'
         run: cargo install dioxus-cli --locked
 
       - name: Build for production
