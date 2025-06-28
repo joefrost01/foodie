@@ -5,17 +5,18 @@ use crate::generated_assets;
 #[derive(Props, Clone, PartialEq)]
 pub struct RecipeListProps {
     pub recipes: Vec<Recipe>,
+    pub on_recipe_click: EventHandler<Recipe>,
 }
 
 #[component]
 pub fn RecipeList(props: RecipeListProps) -> Element {
     if props.recipes.is_empty() {
         return rsx! {
-            div { 
+            div {
                 class: "empty-state",
-                
-                div { 
-                    class: "empty-icon", "🍽️" 
+
+                div {
+                    class: "empty-icon", "🍽️"
                 }
                 h3 { "No recipes found" }
                 p { "Try adjusting your search or filters" }
@@ -24,11 +25,14 @@ pub fn RecipeList(props: RecipeListProps) -> Element {
     }
 
     rsx! {
-        div { 
+        div {
             class: "recipe-grid",
-            
+
             for recipe in props.recipes {
-                RecipeCard { recipe: recipe.clone() }
+                RecipeCard {
+                    recipe: recipe.clone(),
+                    on_click: move |_| props.on_recipe_click.call(recipe.clone())
+                }
             }
         }
     }
@@ -37,6 +41,7 @@ pub fn RecipeList(props: RecipeListProps) -> Element {
 #[derive(Props, Clone, PartialEq)]
 pub struct RecipeCardProps {
     pub recipe: Recipe,
+    pub on_click: EventHandler<()>,
 }
 
 #[component]
@@ -47,69 +52,70 @@ pub fn RecipeCard(props: RecipeCardProps) -> Element {
     let image_asset = generated_assets::get_recipe_image(&recipe.id);
 
     rsx! {
-        article { 
+        article {
             class: "recipe-card",
-            
-            div { 
+            onclick: move |_| props.on_click.call(()),
+
+            div {
                 class: "recipe-image",
                 if let Some(img_asset) = image_asset {
-                    img { 
+                    img {
                         src: "{img_asset}",
                         alt: "{recipe.name}",
                         loading: "lazy"
                     }
                 } else {
-                    div { 
+                    div {
                         class: "placeholder-image",
                         "🍽️"
                     }
                 }
             }
-            
-            div { 
+
+            div {
                 class: "recipe-content",
-                
-                header { 
+
+                header {
                     class: "recipe-header",
                     h3 { class: "recipe-title", "{recipe.name}" }
                     span { class: "recipe-cuisine", "{recipe.cuisine.as_str()}" }
                 }
-                
+
                 if let Some(description) = &recipe.description {
                     p { class: "recipe-description", "{description}" }
                 }
-                
-                div { 
+
+                div {
                     class: "recipe-meta",
-                    
+
                     if let Some(time) = recipe.total_time() {
                         span { class: "recipe-time", "🕒 {time}min" }
                     }
-                    
+
                     if let Some(rating) = recipe.our_rating {
-                        span { 
+                        span {
                             class: "recipe-rating",
                             for i in 1..=5 {
-                                span { 
+                                span {
                                     class: if i <= rating { "star filled" } else { "star" },
                                     "⭐"
                                 }
                             }
                         }
                     }
-                    
+
                     if let Some(spice) = recipe.spice_level {
                         if spice >= 3 {
-                            span { 
-                                class: "spice-indicator", 
+                            span {
+                                class: "spice-indicator",
                                 {(0..spice).map(|_| "🌶️").collect::<String>()}
                             }
                         }
                     }
                 }
-                
+
                 if !recipe.our_changes.is_empty() {
-                    div { 
+                    div {
                         class: "our-changes",
                         span { class: "changes-label", "Our tweaks:" }
                         span { class: "changes-count", "{recipe.our_changes.len()}" }
