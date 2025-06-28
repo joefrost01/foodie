@@ -1,16 +1,6 @@
+# Netlify configuration for manual deploys or drag-and-drop
 [build]
-command = """
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y &&
-    source ~/.cargo/env &&
-    rustup default stable &&
-    cargo install dioxus-cli &&
-    dx build --release
-  """
 publish = "dist"
-
-[build.environment]
-RUSTUP_HOME = "/opt/buildhome/.rustup"
-CARGO_HOME = "/opt/buildhome/.cargo"
 
 [[redirects]]
 from = "/*"
