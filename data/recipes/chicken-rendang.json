@@ -1,38 +1,152 @@
 {
   "id": "chicken-rendang",
-  "name": "Chicken Rendang with Jasmine Rice",
+  "name": "Chicken Rendang",
   "cuisine": "Malaysian",
   "description": "Rich, aromatic Malaysian curry with tender chicken and coconut milk",
-  "image": null,
+  "image": "chicken-rendang.jpg",
   "ingredients": [
     {
-      "name": "Chicken thighs",
-      "amount": "1kg",
+      "name": "Coconut oil",
+      "amount": "70ml",
+      "notes": "for frying",
+      "optional": false
+    },
+    {
+      "name": "Cinnamon stick",
+      "amount": "2\" piece",
+      "notes": "leave whole",
+      "optional": false
+    },
+    {
+      "name": "Star anise",
+      "amount": "3",
+      "notes": "leave whole",
+      "optional": false
+    },
+    {
+      "name": "Cloves",
+      "amount": "4",
+      "notes": "leave whole",
+      "optional": false
+    },
+    {
+      "name": "Cardamom pods",
+      "amount": "6",
+      "notes": "smack with flat of knife to open",
+      "optional": false
+    },
+    {
+      "name": "Lemongrass stalks",
+      "amount": "2",
+      "notes": "trim off woody end and hard root part, slice very thinly",
+      "optional": false
+    },
+    {
+      "name": "Chicken breast fillets",
+      "amount": "1.2kg",
       "notes": "cut into chunks",
       "optional": false
     },
     {
       "name": "Coconut milk",
-      "amount": "800ml",
-      "notes": "full fat",
+      "amount": "400ml",
+      "notes": "Use light if you want a healthier option",
       "optional": false
     },
     {
-      "name": "Lemongrass",
-      "amount": "3 stalks",
-      "notes": "bruised",
+      "name": "Water",
+      "amount": "1 cup",
+      "notes": "for thinning slightly during cooking",
       "optional": false
     },
     {
-      "name": "Galangal",
-      "amount": "3cm piece",
-      "notes": "sliced",
+      "name": "Tamarind concentrate",
+      "amount": "2 tsp",
+      "notes": "adds some sharpness",
+      "optional": false
+    },
+    {
+      "name": "Lime leaves",
+      "amount": "8",
+      "notes": "Chop finely",
+      "optional": false
+    },
+    {
+      "name": "Grated coconut",
+      "amount": "8 tblsp",
+      "notes": "optionally toasted",
+      "optional": false
+    },
+    {
+      "name": "Palm sugar",
+      "amount": "1 tsp",
+      "notes": "More if you like things in the sweet side",
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "amount": "to taste",
+      "notes": "Possibly omit if you follow the tweaks",
+      "optional": false
+    },
+    {
+      "name": "Red chillies",
+      "amount": "2",
+      "notes": "For garnish",
+      "optional": false
+    },
+    {
+      "name": "Spring onions",
+      "amount": "2",
+      "notes": "For garnish",
+      "optional": false
+    },
+    {
+      "name": "*** for the paste ***",
+      "amount": "",
+      "notes": "The below ingredients are for the paste mix",
       "optional": false
     },
     {
       "name": "Shallots",
-      "amount": "6 large",
-      "notes": "roughly chopped",
+      "amount": "6",
+      "notes": "chopped",
+      "optional": false
+    },
+    {
+      "name": "Garlic cloves",
+      "amount": "8",
+      "notes": "crushed",
+      "optional": false
+    },
+    {
+      "name": "Galangal",
+      "amount": "1\" piece",
+      "notes": "chopped",
+      "optional": false
+    },
+    {
+      "name": "Lime leaves",
+      "amount": "4",
+      "notes": "chopped",
+      "optional": false
+    },
+    {
+      "name": "Palm sugar",
+      "amount": "1 tsp",
+      "notes": "More if you like things in the sweet side",
+      "optional": false
+    },
+    {
+      "name": "Lemon grass",
+      "amount": "2",
+      "notes": "trimmed and finely chopped as above",
+      "optional": false
+    },
+    {
+      "name": "Dried red chillies",
+      "amount": "8-12",
+      "notes": "depends on how hot you like it",
       "optional": false
     }
   ],
@@ -48,18 +162,19 @@
   "cook_time": 90,
   "serves": 4,
   "our_changes": [
-    "Double the coconut milk",
-    "Toast spices 30 seconds longer",
-    "Add extra lime leaves"
+    "Add 1 tablespoons of fish sauce and 2 tablespoons of sweet soy sauce 5 minutes before end of cooking",
+    "Dried chillies can be subbed with chilli flakes",
+    "Optionally add a thumb sized piece of ginger to the paste",
+    "Stir in some coriander leaves just before removing from heat"
   ],
   "our_rating": 5,
   "spice_level": 4,
   "difficulty": "Medium",
-  "last_made": "2025-06-20T00:00:00Z",
-  "notes": "Jen's absolute favorite - make extra for leftovers!",
-  "tags": ["spicy", "coconut", "curry", "malaysian"],
+  "last_made": "2025-06-29T17:00:00Z",
+  "notes": "This one is addictive - make extra for leftovers!",
+  "tags": ["spicy", "coconut", "curry", "malaysian", "chicken"],
   "main_ingredient": "chicken",
-  "dietary_info": ["GlutenFree", "DairyFree", "Spicy"],
-  "created_at": "2025-01-15T00:00:00Z",
-  "updated_at": "2025-06-20T00:00:00Z"
+  "dietary_info": ["DairyFree", "Spicy"],
+  "created_at": "2025-07-01T00:00:00Z",
+  "updated_at": "2025-07-01T00:00:00Z"
 }
