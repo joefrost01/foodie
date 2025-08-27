@@ -1,0 +1,71 @@
+{
+  "id": "cloud-pancake",
+  "name": "Cloud Pancake with Raspberries & Salted Butter",
+  "cuisine": "Fusion",
+  "description": "Fluffy protein-packed soufflé-style pancake with a creamy centre, crisp salted butter top, and sharp raspberries for balance.",
+  "image": "cloud-pancake.png",
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "amount": "2 large",
+      "notes": "separate into yolks and whites",
+      "optional": false
+    },
+    {
+      "name": "Vanilla protein powder",
+      "amount": "1 scoop (115 kcal worth)",
+      "notes": "whey or plant-based",
+      "optional": false
+    },
+    {
+      "name": "Oat milk",
+      "amount": "50ml",
+      "notes": "or other milk of choice",
+      "optional": false
+    },
+    {
+      "name": "Oats",
+      "amount": "8g (~1 tbsp)",
+      "notes": "light weekday version; double for weekend",
+      "optional": false
+    },
+    {
+      "name": "Salted French butter",
+      "amount": "5g",
+      "notes": "for cooking; doubles as flavour enhancer",
+      "optional": false
+    },
+    {
+      "name": "Raspberries",
+      "amount": "50g",
+      "notes": "fresh or frozen, dropped straight into the pan",
+      "optional": false
+    }
+  ],
+  "instructions": [
+    "Whip the egg whites until stiff peaks form.",
+    "Whisk yolks with protein powder, oat milk, and oats until smooth.",
+    "Fold yolk mixture gently into the whipped whites to keep volume.",
+    "Melt butter in a non-stick pan over low heat.",
+    "Pour in the batter, drop raspberries into the mix, and cook until the base is golden.",
+    "Flip into a bowl so the crispy salted butter base becomes the top. Spoon in while centre is still creamy."
+  ],
+  "prep_time": 10,
+  "cook_time": 10,
+  "serves": 1,
+  "our_changes": [
+    "Cut oats to 8g and butter to 5g for a lean weekday version.",
+    "Weekend upgrade: 15g oats and 10g butter for a ~450 kcal indulgence.",
+    "Optional extra: 10g grated dark chocolate for a dessert twist."
+  ],
+  "our_rating": 5,
+  "spice_level": 0,
+  "difficulty": "Easy",
+  "last_made": "2025-08-27T08:00:00Z",
+  "notes": "Whipped whites make this insanely light and fluffy. Best eaten immediately while the centre is still creamy.",
+  "tags": ["breakfast", "high-protein", "pancake", "raspberry", "sweet"],
+  "main_ingredient": "eggs",
+  "dietary_info": ["Vegetarian", "HighProtein"],
+  "created_at": "2025-08-27T08:00:00Z",
+  "updated_at": "2025-08-27T08:00:00Z"
+}
