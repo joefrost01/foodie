@@ -75,6 +75,7 @@ pub enum DietaryTag {
     KidFriendly,
     GreatLeftovers,
     QuickMeal,
+    HighProtein,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
